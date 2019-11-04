@@ -32,8 +32,6 @@ stages:
     displayName: Build
     pool: ignite
     steps:
-
-    - 
     - task: DockerInstaller@0
       inputs:
         dockerVersion: '19.03.4'
